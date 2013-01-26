@@ -1,0 +1,5 @@
+This is just a simple implementation of Gegl Operations. I implementated two operations: gegl:grey and gegl:gaussian-blur. 
+
+To compile : $gcc -Wall -g -o Greyblur Greyblur.c $(pkg-config --cflags --libs gegl-0.2)
+
+For Gegl documentations: http://www.gegl.org/api.html
